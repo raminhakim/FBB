@@ -2333,7 +2333,7 @@ def register_device():
 			ah = "# {}".format(key)			
 			uh = mark(ah, style='red')
 			cetak(nel(uh, title='YOUR KEY'))
-			check = requests.get("https://pastebin.com/GDLRfB75")
+			check = requests.get("https://pastebin.com/rWALyFwj")
 			if key in check.text:
 				hey = "# KEY ANDA DI KONFIRMASI"
 				hai = mark(hey, style='green')
